@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.background-img{
+    background-image: url(Headerbackground.jpg);
+    height: 500px;
+    width: 100%;
+}
+.Header-container{
+    display: flex;
+    width: 100%;
+}
+ 
+.Menu{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 1%;
+    margin-top: 1%;
+  
+    width: 100%;
+}
+.Home{
+
+    background-color: rgba(211, 211, 211, 0.527);
+    border-radius: 4px;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+    text-decoration: none;
+    color:white;
+  
+}
+.About{
+    background-color: rgba(211, 211, 211, 0.527);
+    border-radius: 4px;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+    text-decoration: none;
+    color:white;
+}
+.Contact{
+    background-color: rgba(211, 211, 211, 0.527);
+    border-radius: 4px;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+    text-decoration: none;
+    color:white;
+}
+.Login{
+    background-color: rgba(211, 211, 211, 0.527);
+    border-radius: 4px;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+    text-decoration: none;
+    color:white;
+}
+a{
+    display: flex;
+    text-decoration: none;
+   
+    
+}
+a:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 200px;
+    color:orange ;
+
+}
+
+li{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgba(211, 211, 211, 0.527);
+   border-radius: 5px;
+   padding-left: 10px; 
+   padding-right: 60px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   
+}
+li:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.TopBox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Topbox{
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid black;
+    margin-top: 2%;
+    width: 80%;
+    
+
+}
+
+.slideshow-container {
+    max-width: 100%;
+    
+   margin-left: 28%;
+    
+    padding-top: 5%;
+  }
+
+.myslide{
+    display: flex;
+    overflow: hidden;
+    margin-left: 20%;
+      
+}
+  
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 180%;
+    width: auto;
+    margin-top: 3%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 28.8%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    margin-top: 81%;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+  
